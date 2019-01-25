@@ -3,7 +3,6 @@
 
     const date = Date.now() + 1000 * 60 * 60 * 24 * 30;
     const dateString = new Date(date).toUTCString();
-    document.cookie = `userName=maxim; path=/; domain=localhost; expires=${dateString}`;
-    document.cookie = 'userName=vasiya';
+    document.cookie = `script=third-party; path=/; domain=localhost; expires=${dateString}`;
 })()
 
